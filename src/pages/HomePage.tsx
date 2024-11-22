@@ -47,8 +47,8 @@ const HomePage = () => {
                         flags: data.flags?.png || "",
                         cca2: data.cca2,
                         cca3: data.cca3,
-                        name: data.name.common,
-                        native_name: data.name.official,
+                        name: data.name.official,
+                        native_name: data.name.common,
                         alternativ_name: data.altSpellings || [],
                     }));
                     setCountries(allCountries);
